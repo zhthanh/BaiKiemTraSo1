@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.header{
+    background-image:url(/images/head-background.jpg);
+    height: 1060px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.anhvahotline{
+    display: flex;
+}
+.hotline{
+    border-radius: 8px;
+    text-align: center;
+    width: 445px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 190px;
+    background-color: #49A333;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.dangki{
+    border: 10px solid #CED086;
+    width: 365px;
+    height: 450px;
+    text-align: center;
+    background-color: #678B37;
+    margin-left: 425px;
+    margin-top: 350px;
+}
+.dangki h1{
+    color: white;
+    margin: 20px;
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+.dangki p{
+    font-size: 15px ;
+    color: white;
+    padding: 5px;
+    font-style: italic;
+}
+
+.dangki input[type=text]{
+    border-top: 1px solid #2A6E01;
+    border-bottom: 1px groove white;
+    border-left: none;
+    border-right: none;
+    background-color: #678B37;
+    padding: 10px;
+    width: 300px;
+    margin: 5px;
+    color: aliceblue;
+}
+.dangki button{
+    padding: 15px;
+    margin: auto;
+    background-color: #C5D301;
+    color: white;
+    border: none;
+}
+.noidung1, .noidung2{
+    display: flex;
+}
+.chitiet1 h2,.chitiet2 h2{
+    color: #2A6E01;
+    margin: 20px;
+    font-size: 1.3em;
+    text-align: center;
+}
+.chitiet1 p,.chitiet2 p{
+    margin: 20px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+.noidung1 img,.noidung2 img{
+    margin: 10px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #2D8C15;
+}
+.tintuc{
+    background-color: #81AF53;
+}
+.tintucgiua{
+    display: flex;
+    padding: 30px;
+}
+.noidung3 p{
+    color: white;
+    margin: 20px;
+    font-size: 1.3em;
+    text-align: justify;
+}
+.noidung3 h1{
+    border-bottom: 2px solid #CED086;
+    color: white;
+    margin: 20px;
+    font-size: 1.8em;
+}
+.tuvan h1{
+    color: #2A6E01;
+    text-align: center;
+    font-size: 1.8em;
+}
+.dangkituvan{
+    background-color: #DCE085;
+    padding: 30px;
+}
+.tuvan input[type=text],.tuvan button{
+    width: 475px;
+    padding: 10px;
+    margin: 10px;
+}
+.tuvan button{
+    color: white;
+    background-color: #2A6E01;
+    width: 475px;
+    border: none;
+}
